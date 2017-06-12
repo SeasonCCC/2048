@@ -45,7 +45,7 @@ function getNumberBackground(number){
     }
         // console.log("url(../images/ico"+url+")");
         if(number>largeVal){
-            $("#largest").append("<img src='../images/"+url+"' height='80px' style='padding: 5px;' />");
+            $("#largest").append("<img src='./images/"+url+"' height='80px' style='padding: 5px;' />");
             largeVal=number;
         }
         return "url(../images/"+url+")";
